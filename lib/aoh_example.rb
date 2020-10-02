@@ -9,7 +9,11 @@ BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 def assembled_aoh
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
+<<<<<<< HEAD
   result = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
+=======
+  result = [DON_G, JOELLE_VD]
+>>>>>>> fdd332f193dfb4163531539f5761d9712c4c14c0
   result
 end
 
